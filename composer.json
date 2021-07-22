@@ -1,0 +1,20 @@
+{
+    "name": "sidehustle/marketplace",
+    "description": "An ecommerce platform that allows registered users list their product",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Okoronkwo",
+            "email": "danielokoronkwo90@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

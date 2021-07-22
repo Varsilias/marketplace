@@ -1,0 +1,1 @@
+SELECT id, name, image, description, price, stock, discount FROM products WHERE user_id = :user_id
