@@ -1,6 +1,6 @@
 <?php
     require '../../vendor/autoload.php';
-    require 'helpers/fileupload.php';
+    require './helpers/fileupload.php';
 
     use App\client\Input;
     use App\core\Requests\ProductRequest;
