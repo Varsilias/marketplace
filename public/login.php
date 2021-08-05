@@ -82,11 +82,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         <!-- Bootstrap Styles -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+        <link type="application/javascript" href="bootstrap/js/bootstrap.min.js">
 
         <!-- FontAwesome Icons -->
         <link rel="stylesheet" href="fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="fontawesome/js/all.min.js">
+        <link type="application/javascript" href="fontawesome/js/all.min.js">
 
         <title>Login | Marketplace</title>
     </head>
