@@ -6,15 +6,15 @@ use PDO;
 
 class DB extends PDO
 {
-    private $DBNAME = 'heroku_1aabb4f40ec0f58';
-    private $DBHOST = 'us-cdbr-east-04.cleardb.com';
-    private $DBUSERNAME = 'b207c52a54a27a';
-    private $DBPASSWORD = 'de36f1c8';
+    // private $DBNAME = 'heroku_1aabb4f40ec0f58';
+    // private $DBHOST = 'us-cdbr-east-04.cleardb.com';
+    // private $DBUSERNAME = 'b207c52a54a27a';
+    // private $DBPASSWORD = 'de36f1c8';
 
-    // private $DBNAME = 'marketplace';
-    // private $DBHOST = 'localhost';
-    // private $DBUSERNAME = 'root';
-    // private $DBPASSWORD = '';
+    private $DBNAME = 'marketplace';
+    private $DBHOST = 'localhost';
+    private $DBUSERNAME = 'root';
+    private $DBPASSWORD = '';
 
     private $driver = 'mysql';
     private static $instance = null;
